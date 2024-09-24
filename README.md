@@ -64,5 +64,7 @@ The **Paint Mixer** is a warehouse management application written in C++ using t
 ## Future Improvements
 
 - Add more advanced filtering and searching options for paints and projects.
-- Implement undo/redo functionality for project and paint management.
-- Add support for exporting data in additional formats (e.g., CSV).
+- Implement user accounts and database integration for managing personal projects and paint collections.
+- Introduce a color wheel feature for creating custom colors through mixing.
+- Enable users to upload multiple images and videos to document painting projects.
+- Add a feature that allows users to paint on images using the colors from their paint catalog, providing a virtual preview before applying paints in real life.
