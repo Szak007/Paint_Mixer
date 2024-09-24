@@ -1,0 +1,154 @@
+/* Ustawienia ogólne */
+QWidget {
+    background-color: #2b2b2b;
+    color: #d3d3d3;
+    font-family: "DejaVu Sans", "Liberation Sans", sans-serif;
+    font-size: 14px;
+}
+
+/* Nagłówki */
+QLabel#title, QLabel#header {
+    font-size: 18px;
+    font-weight: bold;
+    color: #e6e6e6;
+}
+
+/* Przycisk */
+QPushButton {
+    background-color: #3a3a3a;
+    border: 2px solid #5a5a5a;
+    border-radius: 10px;
+    padding: 5px;
+    color: #d3d3d3;
+}
+
+QPushButton:hover {
+    background-color: #4a4a4a;
+}
+
+QPushButton:pressed {
+    background-color: #2a2a2a;
+    border: 2px solid #8a8a8a;
+}
+
+/* Tabela */
+QTableWidget {
+    background-color: #323232;
+    alternate-background-color: #2b2b2b;
+    gridline-color: #5a5a5a;
+    border: 2px solid #5a5a5a;
+    border-radius: 5px;
+}
+
+QHeaderView::section {
+    background-color: #4a4a4a;
+    color: #d3d3d3;
+    padding: 4px;
+    border: 1px solid #5a5a5a;
+    border-radius: 0px;
+    font-weight: bold;
+}
+
+
+
+QTableWidget::item:selected {
+    background-color: #4a4a4a;
+    color: #e6e6e6;
+}
+
+/* Pola tekstowe */
+QLineEdit, QTextEdit {
+    background-color: #3a3a3a;
+    border: 2px solid #5a5a5a;
+    border-radius: 5px;
+    padding: 4px;
+    color: #e6e6e6;
+}
+
+QLineEdit:focus, QTextEdit:focus {
+    border: 2px solid #8a8a8a;
+}
+
+/* Combo Box */
+QComboBox {
+    background-color: #3a3a3a;
+    border: 2px solid #5a5a5a;
+    border-radius: 5px;
+    padding: 2px;
+    color: #d3d3d3;
+}
+
+QComboBox:hover {
+    background-color: #4a4a4a;
+}
+
+QComboBox QAbstractItemView {
+    background-color: #3a3a3a;
+    border: 1px solid #5a5a5a;
+    selection-background-color: #4a4a4a;
+    selection-color: #e6e6e6;
+}
+
+/* Obramowanie obrazków */
+QLabel#imageLabel {
+    border: 2px solid #5a5a5a;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+/* Scrollbar */
+QScrollBar:vertical {
+    background-color: #2b2b2b;
+    width: 16px;
+    margin: 3px 3px 3px 3px;
+    border: 1px solid #5a5a5a;
+    border-radius: 5px;
+}
+
+QScrollBar::handle:vertical {
+    background-color: #5a5a5a;
+    min-height: 20px;
+    border-radius: 5px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background-color: #8a8a8a;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    border: none;
+    background: none;
+}
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: none;
+}
+
+/* Przykład dodatkowej interakcji: checkBox */
+QCheckBox {
+    color: #d3d3d3;
+    spacing: 5px;
+}
+
+QCheckBox::indicator {
+    width: 18px;
+    height: 18px;
+}
+
+QCheckBox::indicator:checked {
+    background-color: #4a4a4a;
+    border: 2px solid #8a8a8a;
+    border-radius: 3px;
+}
+
+QCheckBox::indicator:unchecked {
+    background-color: #3a3a3a;
+    border: 2px solid #5a5a5a;
+    border-radius: 3px;
+}
+QHeaderView::section {
+    background-color: #3a3a3a;
+    color: #d3d3d3;
+    padding: 4px;
+    border: 1px solid #5a5a5a;
+}
